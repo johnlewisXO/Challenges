@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Merriweather|Cardo|Antic+Slab');
+
+
+/* paragraph styling */
+.paragraph1{
+font-family: Inconsolata, monospace;
+}
+
+.paragraph2{
+  font-family: Merriweather, serif;
+}

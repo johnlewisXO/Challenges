@@ -1,0 +1,28 @@
+
+.ribbon {
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 275px;
+  height: 175px;
+  text-align: right;
+}
+.ribbon span {
+  font-size: 40px;
+  font-weight: bold;
+  color: #FFF;
+  text-align: center;
+  line-height: 110px;
+  transform: rotate(45deg);
+  width: 275px;
+  height: 95px;
+  display: block;
+  background: #79A70A;
+  background: linear-gradient(#05EFF7 0%, #087F8F 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: fixed;
+  top: 9px;
+  right: -91px;
+}
