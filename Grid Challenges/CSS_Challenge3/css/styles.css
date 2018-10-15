@@ -1,0 +1,113 @@
+/* General setup */
+/* Remember to always comment*/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+/* body top properties */
+body .top {
+  margin-top: 200px;
+  float: left;
+  background: #ccc;
+  background-image: url("https://i2.wp.com/www.techbuzzonline.com/wp-content/uploads/2017/12/spark-tech-logo.jpg?resize=580%2C386&ssl=1");
+  background-size:contain;
+  background-origin: border-box;
+  background-position: center;
+  height: 250px;
+  width: 250px;
+
+}
+#grad1 {
+    background-image: linear-gradient(indigo, violet);
+    opacity: 0.3;
+}
+
+/* body botttom properties */
+
+ body .bottom{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHt8YpW-wUHZMdp3Zr3x3Xp4HrgKKtT9oJ5vKsSFY_3bZU5B2U");
+    float: right;
+    margin top: 1000px;
+    margin-right: 100px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 250px;
+    width: 250px;
+}
+#grad2 {
+    background-image: linear-gradient(lightblue, blue);
+    opacity: 0.4;
+}
+
+.logo {
+  background-image: url("https://i2.wp.com/www.techbuzzonline.com/wp-content/uploads/2017/12/spark-tech-logo.jpg?resize=580%2C386&ssl=1");
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+
+/* article properties */
+article {
+  width: 210mm;
+  height: 297mm;
+  margin: 20px auto;
+  position: relative;
+}
+
+/* company address properties */
+
+address {
+  position: absolute;
+  bottom: 8mm;
+  right: 20mm;
+}
+
+/* heading properties */
+h1 {
+  position: absolute;
+  top: 12mm;
+  left: 20mm;
+  width: 128px;
+  height: 128px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 44px 0;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+/* Write your CSS below here */
+
+
+
+/* Media Queries & responsive design */
+@media (min-width: 400px) {
+.top{
+  height: 200px;
+  width: 900px;
+  font-size: 35px;
+  margin-left: 70px;
+  margin-top: auto;
+  padding-left: 70px;
+  padding-top: 80px;
+
+}
+.bottom{
+  height: 200px;
+  width: 900px;
+  font-size: 25px;
+  margin-left: 70px;
+  margin-top: 400px;
+  padding-left: 70px;
+  padding-top: 80px;
+
+}
+}

@@ -1,0 +1,104 @@
+#nav {
+  display: grid;
+  grid-template-rows: 1fr ;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  grid-gap: 2vw;
+  margin-top: 80px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+#nav > div {
+  font-size: 22px;
+  padding: .5em;
+  background: azure;
+  text-align: center;
+}
+#nav > div a:hover {
+  font-size: 24px;
+  padding: .5em;
+  background: linear-gradient(lightblue;azure) ;
+  text-align: center;
+  text-decoration-color: black;
+}
+
+#article {
+  gr
+  column-gap: 10px;
+  grid-row-gap: .2em;
+  background: azure;
+  margin-top: 70px;
+}
+
+#article:after {
+    content: "";
+    display: grid;
+    clear: both;
+}
+
+#imageMe {
+  display: grid;
+  background-image: url(../images/Gradpic2.jpg);
+  height: 300px;
+  width: 28%;
+  float: right;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 70px;
+  margin-top: 0;
+}
+
+#summaryMe {
+  float: left;
+  margin-top: 100px ;
+  margin-right: 600px;
+  margin-left: 100px;
+
+}
+
+#images {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-gap: 2vw;
+  margin-top: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#images > div {
+  font-size: 22px;
+  padding: .5em;
+  background: azure;
+  text-align: center;
+}
+
+
+
+/* @media screen and (max-width: 800px) {
+  #article {
+    flex: 50%;
+    max-width: 50%;
+    margin: 50px 0 30px 30px;
+  }
+
+  .imageMe {
+    display: grid;
+    height: 200px;
+    width: 330px;
+    float: right;
+    margin-left: 70px;
+    margin-right: 70px;
+
+  }
+
+  #nav{
+    display: grid;
+    grid-template-rows: 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-gap: 2vw;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+} */
